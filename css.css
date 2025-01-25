@@ -734,7 +734,7 @@ body.wide .container:not(.inner-container) {
 
 
 /* inline.css */
-.mainTitle {
+#mainTitle {
     text-align: center !important;
     font-weight: bold;
     color: #001B5B;
@@ -1594,7 +1594,7 @@ input {
 }
 
 @media (max-width:767px) {
-    .content {
+    #content {
         text-align: center
     }
 }
@@ -2025,7 +2025,7 @@ img {
     height: auto
 }
 
-.content {
+#content {
     padding: 1px
 }
 
