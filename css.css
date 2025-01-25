@@ -2046,15 +2046,15 @@ img {
 }
 
 #img1hdr {
-    background-image: url('/img/societe-nettoyage-casablanca.webp');
+    background-image: url('/img/image-slider1.webp');
 }
 
 #img2hdr {
-    background-image: url('/img/societe-nettoyage-caxablanca1.webp');
+    background-image: url('/img/image-slider2.webp');
 }
 
 #img3hdr {
-    background-image: url('/img/societe-nettoyage-caxablanca2.webp');
+    background-image: url('/img/image-slider1.webp');
 }
 
 ::-webkit-scrollbar {
@@ -2287,3 +2287,28 @@ body {
     margin: 0px; 
     padding: 0px;
 }
+
+
+#carousel-caption span{
+    color: blue;
+    font-size: 40px;
+    text-align: left;
+  }
+  #carousel-caption h1{
+    color: black;
+    font-size:  50px;
+    text-align: left;
+  }
+  #carousel-caption h3{
+    color: black;
+    font-size: 30px;
+    text-align: left ;
+  
+  }
+  #carousel-caption p{
+    color: black;
+    font-size: 15px;
+    text-align: left;
+  
+  }
+  
