@@ -2277,3 +2277,13 @@ body {
     opacity: 1;
 }
 
+#span-header {
+    background-color: rgb(79, 111, 206);
+}
+
+#img-style1 {
+    height: 230px; 
+    width: 100%; 
+    margin: 0px; 
+    padding: 0px;
+}
