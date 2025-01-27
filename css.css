@@ -742,7 +742,6 @@ body.wide .container:not(.inner-container) {
 }
 
 h1 {
-    text-align: center !important;
     font-weight: bold;
     color: #001B5B
 }
@@ -823,7 +822,7 @@ span.spanBlue {
     position: relative;
     -webkit-box-shadow: rgba(60, 64, 67, .3) 0 1px 2px 0, rgba(60, 64, 67, .15) 0 1px 3px 1px;
     box-shadow: rgba(60, 64, 67, .3) 0 1px 2px 0, rgba(60, 64, 67, .15) 0 1px 3px 1px;
-    margin:auto;
+    margin: auto;
     margin-top: 10px;
     margin-bottom: 20px;
     padding: 0px;
@@ -919,7 +918,7 @@ span.spanBlue {
     font: 600 2rem Poppins, sans-serif;
     text-align: center;
     padding: 30px;
-    
+
 }
 
 #ourServices-2 a {
@@ -1311,7 +1310,8 @@ table li:hover {
 }
 
 #headerSlider #sliderPositionCon .sliderPosition {
-    background-color: #ffffff; /* Couleur blanche par défaut */
+    background-color: #ffffff;
+    /* Couleur blanche par défaut */
     width: 10px;
     height: 10px;
     display: inline-block;
@@ -1321,17 +1321,18 @@ table li:hover {
 }
 
 #headerSlider #sliderPositionCon .sliderPositionActive {
-    background-color: #4f6fce; /* Couleur bleue pour le point actif */
+    background-color: #4f6fce;
+    /* Couleur bleue pour le point actif */
 }
 
-#imgSliderCon  {
+#imgSliderCon {
     transition: 900ms ease-out;
     transform: translateX(-3048px);
 }
 
 
-  /* ourclients.css */
-  #ourClients {
+/* ourclients.css */
+#ourClients {
     width: 100%;
     margin-bottom: 50px;
 }
@@ -2025,10 +2026,6 @@ img {
     height: auto
 }
 
-#content {
-    padding: 1px
-}
-
 ::-webkit-scrollbar {
     width: 8px
 }
@@ -2213,9 +2210,6 @@ img {
     }
 }
 
-h1 {
-    text-align: center !important
-}
 
 #coladress {
     color: #001b5b;
@@ -2282,33 +2276,129 @@ body {
 }
 
 #img-style1 {
-    height: 230px; 
-    width: 100%; 
-    margin: 0px; 
+    height: 230px;
+    width: 100%;
+    margin: 0px;
     padding: 0px;
 }
 
 
-#carousel-caption span{
+#carousel-caption span {
     color: blue;
     font-size: 40px;
     text-align: left;
-  }
-  #carousel-caption h1{
+}
+
+#carousel-caption h1 {
     color: black;
-    font-size:  50px;
+    font-size: 50px;
     text-align: left;
-  }
-  #carousel-caption h3{
+}
+
+#carousel-caption h3 {
     color: black;
     font-size: 30px;
-    text-align: left ;
-  
-  }
-  #carousel-caption p{
+    text-align: left;
+
+}
+
+#carousel-caption p {
     color: black;
     font-size: 15px;
     text-align: left;
-  
-  }
-  
+
+}
+
+p {
+    margin-bottom: 15px;
+    font-size: medium;
+}
+
+/* Button Fix */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.fixed-btn {
+    position: fixed;
+    bottom: 160px;
+    right: 1%;
+    background: #7e0ce9;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 15px;
+    cursor: pointer;
+    padding-right: 0.5px;
+    padding-top: 15px;
+    position: fixed;
+    z-index: 1000;
+}
+.fixed-btn a, .fixed-btn1 a {
+    text-transform: uppercase;
+    font-family: arial;
+    font-size: 25px;
+    color: #fff !important;
+}
+.fa, .fas {
+    font-weight: 900;
+}
+.item, ::after, ::before {
+    box-sizing: border-box;
+}
+.fa-comment-alt:before {
+    content: "\f27a";
+}
+.fixed-btn1 {
+    position: fixed;
+    bottom: 100px;
+    right: 1%;
+    background: #0FACF3;
+    width: 50px;
+    height: 50px;
+    line-height: 45px;
+    text-align: center;
+    border-radius: 15px;
+    cursor: pointer;
+    padding-right: 0.5px;
+    padding-top: 2px;
+    transform: rotate(90deg) !important;
+    position: fixed;
+    z-index: 1000;
+}
+.fixed-btn a, .fixed-btn1 a {
+    text-transform: uppercase;
+    font-family: arial;
+    font-size: 25px;
+    color: #fff !important;
+}
+.fixed-btn2 {
+    position: fixed;
+    bottom: 40px;
+    right: 1%;
+    background: #00E676;
+    width: 50px;
+    height: 50px;
+    line-height: 45px;
+    text-align: center;
+    border-radius: 15px;
+    cursor: pointer;
+    position: fixed;
+    z-index: 1000;
+}
+.fixed-btn2 a {
+    text-transform: uppercase;
+    font-family: arial;
+    font-size: 30px;
+    color: #fff !important;
+}
+.fa.fa-pinterest-p, .fa.fa-whatsapp {
+    font-family: "Font Awesome 5 Brands";
+    font-weight: 400;
+}
+
+/* slider heqder */
+#headerSlider {
+    padding-top: 130px;
+}
