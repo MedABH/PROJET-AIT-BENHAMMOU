@@ -138,6 +138,41 @@ p {
       transform: translateX(-250%); /* Scroll left by the width of 10 images */
     }
   }
+
+  @media (max-width: 768px) {
+    /* Carousel styling */
+#carousel {
+    overflow: hidden; /* Hide overflowing images */
+    width: 100%; /* Full width of the carousel */
+    position: relative;
+  }
+  
+  #carousel-inner {
+    display: flex;
+    gap: 0; /* Remove gaps between items */
+    animation: infinite-scroll 30s linear infinite; /* Smooth, infinite scrolling */
+    height: auto;
+  }
+  
+  #carousel-item {
+    flex: 0 0 calc(100% / 4); /* Each image takes up 1/4th of the width (4 images visible at once) */
+  }
+  
+  #carousel-item img {
+    width: 100%;
+    height: 100px; /* Maintain image aspect ratio */
+  }
+  
+  /* Keyframes for seamless infinite scrolling */
+  @keyframes infinite-scroll {
+    0% {
+      transform: translateX(0); /* Start at the first image */
+    }
+    100% {
+      transform: translateX(-250%); /* Scroll left by the width of 10 images */
+    }
+  }
+  }
   
 /* autre service */
 #li-taile {
