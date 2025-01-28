@@ -1082,7 +1082,7 @@ span.spanBlue {
 
 #modeProjectCon {
     width: 100%;
-    background-color: #9bbf3e;
+    background-color: #aa9325;
     padding: 20px 0
 }
 
@@ -1109,7 +1109,7 @@ span.spanBlue {
 .footer-dark {
     padding: 30px 0 1px;
     color: #f0f9ff;
-    background-color: #001b5b
+    background-color: #4a6bac
 }
 
 .footer-dark h3 {
@@ -1130,8 +1130,8 @@ span.spanBlue {
 table li {
     list-style: none;
     margin-right: 24px;
-    border: 1px solid #a0a0a0;
-    color: #a0a0a0;
+    border: 1px solid #fff;
+    color: #fff;
     margin-bottom: 1px;
     padding: 5px
 }
@@ -2199,7 +2199,7 @@ img {
 
 
 #text_dec {
-    text-decoration: none
+    text-decoration: none;
 }
 
 @media screen and (min-width:760px) {
