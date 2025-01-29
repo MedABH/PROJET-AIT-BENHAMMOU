@@ -1,0 +1,15 @@
+#blogSize {
+    padding-top: 130px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: #13287d;
+    clear: both;
+    line-height: 1.25;
+    margin: 0 0 15px;
+    font-weight: 700;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    }
