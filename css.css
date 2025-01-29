@@ -2320,6 +2320,7 @@ p {
     margin: 0;
     box-sizing: border-box;
 }
+
 .fixed-btn {
     position: fixed;
     bottom: 160px;
@@ -2335,21 +2336,30 @@ p {
     position: fixed;
     z-index: 1000;
 }
-.fixed-btn a, .fixed-btn1 a {
+
+.fixed-btn a,
+.fixed-btn1 a {
     text-transform: uppercase;
     font-family: arial;
     font-size: 25px;
     color: #fff !important;
 }
-.fa, .fas {
+
+.fa,
+.fas {
     font-weight: 900;
 }
-.item, ::after, ::before {
+
+.item,
+::after,
+::before {
     box-sizing: border-box;
 }
+
 .fa-comment-alt:before {
     content: "\f27a";
 }
+
 .fixed-btn1 {
     position: fixed;
     bottom: 100px;
@@ -2367,12 +2377,15 @@ p {
     position: fixed;
     z-index: 1000;
 }
-.fixed-btn a, .fixed-btn1 a {
+
+.fixed-btn a,
+.fixed-btn1 a {
     text-transform: uppercase;
     font-family: arial;
     font-size: 25px;
     color: #fff !important;
 }
+
 .fixed-btn2 {
     position: fixed;
     bottom: 40px;
@@ -2387,13 +2400,16 @@ p {
     position: fixed;
     z-index: 1000;
 }
+
 .fixed-btn2 a {
     text-transform: uppercase;
     font-family: arial;
     font-size: 30px;
     color: #fff !important;
 }
-.fa.fa-pinterest-p, .fa.fa-whatsapp {
+
+.fa.fa-pinterest-p,
+.fa.fa-whatsapp {
     font-family: "Font Awesome 5 Brands";
     font-weight: 400;
 }
@@ -2401,4 +2417,55 @@ p {
 /* slider heqder */
 #headerSlider {
     padding-top: 130px;
+}
+
+/* contact css */
+#headerPading {
+    padding-top: 130px;
+}
+
+#imgstylecon {
+    height: 150px;
+    padding-left: 60px
+}
+
+.iputandselect {
+    border: 1px solid rgb(10, 10, 10) !important;
+    font-family: arial;
+    font-Weight: bold;
+    font-size: 18px;
+    color: #6c757d;
+    width: 100%;
+    height: 40px;
+}
+
+#Part {
+    display: none;
+}
+
+#Prof {
+    display: none;
+}
+
+#atre {
+    display: none;
+}
+
+#textareacon {
+    border: 1px solid rgb(10, 10, 10) !important;
+    font-family: arial;
+    font-Weight: bold;
+    font-size: 18px;
+    color: #6c757d;
+    width: 100%;
+    height: 100px;
+}
+
+#sendMessageBtn {
+    color: #fff;
+    width: 100%;
+    height: 45px;
+    text-transform: uppercase;
+    background-color: #725415;
+    font-weight: bold
 }
