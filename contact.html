@@ -9,7 +9,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <link href="css.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <script src="js.js"></script>
     <link rel="icon" href="./img/societe-travaux-multi-service-casablanca.png" type="image/x-icon">
 </head>
 
@@ -125,28 +124,27 @@
                     <div></div>
                 </div>
             </div>
-            </nav>
     </header>
     <!------Demendez un devis-------->
     <div class="container col-12 my-5 py-5">
         <section class="px-md-5 mx-md-5 text-center text-lg-left dark-grey-text">
             <div class="row" id="headerPading">
+                <h3 class="text-center pb-4" id="mainTitle">Demandez une étude tarifaire</h3>
                 <div class="col-lg-5 col-md-12 mb-0 mb-md-0">
-                    <h3 class="font-weight-bold text-center">Demandez une étude tarifaire</h3>
-                    <p class="text-muted">Devis : Le meilleur moyen d'établir une estimation tarifaire reste une
+                    <p id="center">Devis : Le meilleur moyen d'établir une estimation tarifaire reste une
                         rencontre physique. vous pouvez mieux nous expliquer votre projet, vos objectifs, vos
                         attentes, les fonctionnalités souhaitées, etc.</p>
                     <hr class="my-5">
-                    <p class="text-muted">Afin de discuter de votre projet, vous pouvez également nous joindre par
+                    <p id="center">Afin de discuter de votre projet, vous pouvez également nous joindre par
                         téléphone au +212 665 606 500</p>
                     <hr class="my-5">
-                    <p class="text-muted">Finalement ce formulaire est également à votre disposition pour envoyer
+                    <p id="center">Finalement ce formulaire est également à votre disposition pour envoyer
                         vos demandes, cependant, une demande de tarification en ligne nécessite de fournir des
                         informations précises et détaillées à propos d'un projet. Nous ne traitons pas les demandes
                         incomplètes ou à but comparatif, en effet notre méthodologie de travail est basée sur la
                         qualité et nous ne pouvons pas concurrencer les prix bas du marché MULTI SERVICES
                     </p>
-                    <h1 class="font-weight-bold text-center">DEVIS GRATUIT CHEZ ALLO BRICOLE !!</h1>
+                    <h1 class="text-center" id="mainTitle">DEVIS GRATUIT CHEZ ALLO BRICOLE !!</h1>
                     <div class="view overlay">
                         <a href="#">
                             <img id="imgstylecon"
@@ -156,16 +154,17 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-lg-7 col-md-12 mb-4 mb-md-0">
+                <div class="col-lg-7 col-md-12 mb-4 mb-md-0" id="greenbord">
                     <form id="devisForm" method="POST">
                         <div class="inputAndLabelCon">
-                            <label for="">Nom/Prenom <span class="necessary">*</span></label><br>
+                            
+                            <label for="" class="pt-4">Nom/Prenom <span class="necessary">*</span></label><br>
                             <input type="text" id="senderName" name="nom" class="iputandselect"
                                 placeholder="Nom" required="">
                         </div>
 
                         <div class="inputAndLabelCon">
-                            <label for="">Ville <span class="necessary">*</span></label><br>
+                            <label for="" class="pt-4">Ville <span class="necessary">*</span></label><br>
                             <select name="senderVille" id="vll"
                             class="iputandselect"
                                 required="">
@@ -196,19 +195,19 @@
 
                         </div>
                         <div class="inputAndLabelCon">
-                            <label for="">Tél <span class="necessary">*</span></label><br>
+                            <label for="" class="pt-4">Tél <span class="necessary">*</span></label><br>
                             <input type="text" id="tel"
                             class="iputandselect"
                                 name="senderTel" pattern="\d{10,}" placeholder="10 chiffres minimum" required="">
                         </div>
                         <div class="inputAndLabelCon">
-                            <label for="">Email <span class="necessary">*</span></label><br>
+                            <label for="" class="pt-4">Email <span class="necessary">*</span></label><br>
                             <input type="email" id="email" name="senderEmail"
                             class="iputandselect"
                                 placeholder="exemple@gmail.com" required="">
                         </div>
                         <div class="inputAndLabelCon" id="rt">
-                            <label>Type de local<span class="necessary">*</span></label><br>
+                            <label class="pt-4">Type de local<span class="necessary">*</span></label><br>
                             <select name="ProOrPar" id="TypeLocal"
                                 class="iputandselect"
                                 required="">
@@ -219,7 +218,7 @@
                         </div>
 
                         <div class="inputAndLabelCon" id="Part">
-                            <label for="">Sujet <span class="necessary">*</span></label><br>
+                            <label for="" class="pt-4">Sujet <span class="necessary">*</span></label><br>
                             <select name="messageSubject1"
                                 class="iputandselect"
                                 id="pr">
@@ -232,7 +231,7 @@
                             </select>
                         </div>
                         <div class="inputAndLabelCon" id="Prof">
-                            <label for="">Sujet <span class="necessary">*</span></label><br>
+                            <label for="" class="pt-4">Sujet <span class="necessary">*</span></label><br>
                             <select name="messageSubject2"
                                 class="iputandselect"
                                 id="pf">
@@ -245,13 +244,13 @@
                             </select>
                         </div>
                         <div class="inputAndLabelCon" id="atre">
-                            <label for="">Autre <span class="necessary">*</span></label><br>
+                            <label for="" class="pt-4">Autre <span class="necessary">*</span></label><br>
                             <input type="text" name="messageSubject3"
                                 class="iputandselect"
                                 id="atr" placeholder="Autre">
                         </div>
                         <div class="inputAndLabelCon" id="messageTxt">
-                            <label for="">Message <span class="necessary">*</span></label><br>
+                            <label for="" class="pt-4">Message <span class="necessary">*</span></label><br>
                             <textarea
                                 id="textareacon"
                                 type="text" name="senderMessage" placeholder="Message"
@@ -260,7 +259,7 @@
                         </div>
 
                         <div class="inputAndLabelCon">
-                            <label id="captchaQuestion">Quel est la somme de 1 + 5 ?</label><br>
+                            <label id="captchaQuestion" class="pt-4">Quel est la somme de 1 + 5 ?</label><br>
                             <input type="number"
                                 class="iputandselect"
                                 placeholder="Entrez bonne reponse " id="captchaAnswer" required=""><br><br>
@@ -276,6 +275,16 @@
 
             </div>
         </section>
+    </div>
+
+    <div class="fixed-btn">
+        <a href="#"><i class="fas fa-comment-alt" aria-hidden="true"></i></a>
+    </div>
+    <div class="fixed-btn1">
+        <a href="#"><i class="fa fa-phone" aria-hidden="true"></i></a>
+    </div>
+    <div class="fixed-btn2">
+        <a href="#"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
     </div>
 
     <footer class="footer-dark">
@@ -462,6 +471,8 @@
         </div>
 
     </footer>
+    <script src="js.js"></script>
+    <script src="contact.js"></script>
 </body>
 
 </html>

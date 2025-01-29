@@ -2421,12 +2421,11 @@ p {
 
 /* contact css */
 #headerPading {
-    padding-top: 130px;
+    padding-top: 60px;
 }
 
 #imgstylecon {
     height: 150px;
-    padding-left: 60px
 }
 
 .iputandselect {
@@ -2468,4 +2467,9 @@ p {
     text-transform: uppercase;
     background-color: #725415;
     font-weight: bold
+}
+
+#greenbord {
+    background-color: #28d331;
+    border-radius: 12px;
 }
