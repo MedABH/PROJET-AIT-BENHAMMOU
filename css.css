@@ -2473,3 +2473,9 @@ p {
     background-color: #28d331;
     border-radius: 12px;
 }
+
+
+/*blog content*/
+.conblogpad {
+    padding-top: 130px;
+}
