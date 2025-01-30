@@ -2493,6 +2493,10 @@ p {
     text-align: center;
 }
 
+.font-weight-bold {
+    text-align: center !important;
+}
+
 /* Carousel styling blogs */
 #carousel-blog {
     overflow: hidden; /* Hide overflowing images */
