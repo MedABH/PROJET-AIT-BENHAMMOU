@@ -2486,13 +2486,42 @@ p {
     height: 500px;
     border-radius: 2%;
 }
-#img-fluid-banner {
-    width: 100px;
-    height: 100px;
-}
 }
 
 .dark-grey-text {
     color: #2e2e2e;
-    
 }
+
+/* Carousel styling blogs */
+#carousel-blog {
+    overflow: hidden; /* Hide overflowing images */
+    width: 100%; /* Full width of the carousel */
+    position: relative;
+    height: 250px;
+  }
+  
+  #carousel-inner-blog {
+    display: flex;
+    gap: 0; /* Remove gaps between items */
+    animation: infinite-scroll 30s linear infinite; /* Smooth, infinite scrolling */
+    height: auto;
+  }
+  
+  #carousel-item-blog {
+    flex: 0 0 calc(100% / 4); /* Each image takes up 1/4th of the width (4 images visible at once) */
+  }
+  
+  #carousel-item-blog img {
+    width: 260px;
+    height: 180px; /* Maintain image aspect ratio */
+    text-align: center;
+  }
+
+  #parasizeblog {
+    width: auto;
+  }
+  
+  /*#img-fluid-banner {
+    width: 100px;
+    height: 100px;
+}*/

@@ -1,6 +1,6 @@
 /* ---- Image bannner stop mouse hover ---- */
 document.addEventListener("DOMContentLoaded", () => {
-    const carouselInner = document.querySelector('#carousel-inner');
+    const carouselInner = document.querySelector('#carousel-inner-blog');
   
     // Ensure the carousel exists in the DOM
     if (carouselInner) {
