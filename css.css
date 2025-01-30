@@ -2479,3 +2479,20 @@ p {
 .conblogpad {
     padding-top: 130px;
 }
+
+@media only screen and (min-width: 1024px) {
+.img-fluid {
+    width: 850px;
+    height: 500px;
+    border-radius: 2%;
+}
+#img-fluid-banner {
+    width: 100px;
+    height: 100px;
+}
+}
+
+.dark-grey-text {
+    color: #2e2e2e;
+    
+}
