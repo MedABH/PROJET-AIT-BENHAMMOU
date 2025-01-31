@@ -2530,3 +2530,17 @@ p {
     width: 100px;
     height: 100px;
 }*/
+
+#back2 {
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 16px;
+    padding-bottom: 152px;
+    text-align: center;
+    background-attachment: fixed;
+    background-image: url(../img/banner-societe-nettoyage-casablanca-1250x250.webp);
+    background-size: cover;
+    width: auto;
+    height: auto;
+    margin-top: 130px !important;
+}
