@@ -24,12 +24,10 @@ document.addEventListener("DOMContentLoaded", function () {
             }
         });
     }
-
     // Ajouter les événements de clic sur les points
     sliderDots.forEach((dot, index) => {
         dot.addEventListener("click", () => changeSlide(index));
     });
-
     // Configurer le changement automatique de slide
     setInterval(() => {
         changeSlide(currentIndex + 1);
