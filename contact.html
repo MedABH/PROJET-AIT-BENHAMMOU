@@ -147,9 +147,8 @@
                     <h1 class="text-center" id="mainTitle">DEVIS GRATUIT CHEZ ALLO BRICOLE !!</h1>
                     <div class="view overlay">
                         <a href="#">
-                            <img id="imgstylecon"
-                                src="./img/devis-gratuit-allobricole.webp"
-                                class="img-fluid" alt="Société de multi services à Casablanca Maroc ALLO BRICOLE">
+                            <img id="imgstylecon" src="./img/devis-gratuit-allobricole.webp" class="img-fluid"
+                                alt="Société de multi services à Casablanca Maroc ALLO BRICOLE">
                             <div class="mask rgba-white-light"></div>
                         </a>
                     </div>
@@ -157,17 +156,15 @@
                 <div class="col-lg-7 col-md-12 mb-4 mb-md-0" id="greenbord">
                     <form id="devisForm" method="POST">
                         <div class="inputAndLabelCon">
-                            
+
                             <label for="" class="pt-4">Nom/Prenom <span class="necessary">*</span></label><br>
-                            <input type="text" id="senderName" name="nom" class="iputandselect"
-                                placeholder="Nom" required="">
+                            <input type="text" id="senderName" name="nom" class="iputandselect" placeholder="Nom"
+                                required="">
                         </div>
 
                         <div class="inputAndLabelCon">
                             <label for="" class="pt-4">Ville <span class="necessary">*</span></label><br>
-                            <select name="senderVille" id="vll"
-                            class="iputandselect"
-                                required="">
+                            <select name="senderVille" id="vll" class="iputandselect" required="">
                                 <option value="" disabled="" selected="" hidden="">Choisi la Ville</option>
                                 <option value="10"> Agadir </option>
                                 <option value="17"> Beni Mellal </option>
@@ -196,21 +193,17 @@
                         </div>
                         <div class="inputAndLabelCon">
                             <label for="" class="pt-4">Tél <span class="necessary">*</span></label><br>
-                            <input type="text" id="tel"
-                            class="iputandselect"
-                                name="senderTel" pattern="\d{10,}" placeholder="10 chiffres minimum" required="">
+                            <input type="text" id="tel" class="iputandselect" name="senderTel" pattern="\d{10,}"
+                                placeholder="10 chiffres minimum" required="">
                         </div>
                         <div class="inputAndLabelCon">
                             <label for="" class="pt-4">Email <span class="necessary">*</span></label><br>
-                            <input type="email" id="email" name="senderEmail"
-                            class="iputandselect"
+                            <input type="email" id="email" name="senderEmail" class="iputandselect"
                                 placeholder="exemple@gmail.com" required="">
                         </div>
                         <div class="inputAndLabelCon" id="rt">
                             <label class="pt-4">Type de local<span class="necessary">*</span></label><br>
-                            <select name="ProOrPar" id="TypeLocal"
-                                class="iputandselect"
-                                required="">
+                            <select name="ProOrPar" id="TypeLocal" class="iputandselect" required="">
                                 <option value="" disabled="" selected="" hidden="">Choisi le type de local</option>
                                 <option value="1"> Particulier </option>
                                 <option value="2"> Professionnel </option>
@@ -219,9 +212,7 @@
 
                         <div class="inputAndLabelCon" id="Part">
                             <label for="" class="pt-4">Sujet <span class="necessary">*</span></label><br>
-                            <select name="messageSubject1"
-                                class="iputandselect"
-                                id="pr">
+                            <select name="messageSubject1" class="iputandselect" id="pr">
                                 <option value="" disabled="" selected="" hidden="">Choisi le Sujet</option>
                                 <option value="1"> Studio </option>
                                 <option value="2"> Appartement </option>
@@ -232,9 +223,7 @@
                         </div>
                         <div class="inputAndLabelCon" id="Prof">
                             <label for="" class="pt-4">Sujet <span class="necessary">*</span></label><br>
-                            <select name="messageSubject2"
-                                class="iputandselect"
-                                id="pf">
+                            <select name="messageSubject2" class="iputandselect" id="pf">
                                 <option value="" disabled="" selected="" hidden="">Choisi le Sujet</option>
                                 <option value="6"> Magasin </option>
                                 <option value="7"> Showroom </option>
@@ -245,28 +234,23 @@
                         </div>
                         <div class="inputAndLabelCon" id="atre">
                             <label for="" class="pt-4">Autre <span class="necessary">*</span></label><br>
-                            <input type="text" name="messageSubject3"
-                                class="iputandselect"
-                                id="atr" placeholder="Autre">
+                            <input type="text" name="messageSubject3" class="iputandselect" id="atr"
+                                placeholder="Autre">
                         </div>
                         <div class="inputAndLabelCon" id="messageTxt">
                             <label for="" class="pt-4">Message <span class="necessary">*</span></label><br>
-                            <textarea
-                                id="textareacon"
-                                type="text" name="senderMessage" placeholder="Message"
+                            <textarea id="textareacon" type="text" name="senderMessage" placeholder="Message"
                                 required="">              </textarea>
 
                         </div>
 
                         <div class="inputAndLabelCon">
                             <label id="captchaQuestion" class="pt-4">Quel est la somme de 1 + 5 ?</label><br>
-                            <input type="number"
-                                class="iputandselect"
-                                placeholder="Entrez bonne reponse " id="captchaAnswer" required=""><br><br>
+                            <input type="number" class="iputandselect" placeholder="Entrez bonne reponse "
+                                id="captchaAnswer" required=""><br><br>
                             <span id="errorMessage" class="error"></span>
                         </div>
-                        <button id="sendMessageBtn" type="submit"
-                            name="sendEmailSubBtn">
+                        <button id="sendMessageBtn" type="submit" name="sendEmailSubBtn">
                             envoyer
                         </button>
 
@@ -278,20 +262,20 @@
     </div>
 
     <div class="fixed-btn">
-        <a href="#"><i class="fas fa-comment-alt" aria-hidden="true"></i></a>
-    </div>
-    <div class="fixed-btn1">
-        <a href="#"><i class="fa fa-phone" aria-hidden="true"></i></a>
-    </div>
-    <div class="fixed-btn2">
-        <a href="#"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
-    </div>
+            <a href="./contact.html"><i class="fas fa-comment-alt" aria-hidden="true"></i></a>
+        </div>
+        <div class="fixed-btn1">
+            <a href="tel:06 65 60 65 00"><i class="fa fa-phone" aria-hidden="true"></i></a>
+        </div>
+        <div class="fixed-btn2">
+            <a href="https://api.whatsapp.com/send?phone=0665606500"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+        </div>
 
     <footer class="footer-dark">
         <div class="container">
             <div class="row">
                 <div class="col-md-4 item">
-                    <a href="#"><img src="../img/societe-travaux-multi-service-casablanca.png" width="130px"
+                    <a href="./html.html"><img src="../img/societe-travaux-multi-service-casablanca.png" width="130px"
                             height="130px" alt="WINBEST NETTOYAGE Société de nettoyage à Casablanca Maroc"
                             class="imgfot"></a>
                     <br><br>
@@ -305,7 +289,7 @@
                                     important.</strong></p>
                         </li>
                     </ul>
-                    <a href="#"><img width="260px" height="115px"
+                    <a href="./apropos/pnc.html"><img width="260px" height="115px"
                             src="../img/WINBEST-NETTOYAGE-SOCIETE-NETTOYAGE-CASABLANCA.svg"
                             alt="WINBEST NETTOYAGE NOTÉ COMME LE MEILLEUR PRESTATAIRE DE NETTOYAGE AU MAROC A TITRE DE L&#39;ANNÉE 2021"></a>
                 </div>
@@ -430,7 +414,7 @@
                                 <p>Email: allo.multiservices.maroc@gmail.com
                                 </p>
                             </li>
-                            <li><a href="#" class="chna">Contactez nous</a></li>
+                            <li><a href="mailto:allo.multiservices.maroc@gmail.com" class="chna">Contactez nous</a></li>
                         </ul>
                     </div>
                     <!--<div class="row-md-3 item ftb dmn">
