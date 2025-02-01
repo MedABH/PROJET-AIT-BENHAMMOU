@@ -1937,7 +1937,7 @@ header {
     height: 50px;
     text-align: center;
     border-radius: 15px;
-    padding-right: .5px;
+    padding-right: 5px;
     padding-top: 9px;
     position: fixed;
     z-index: 1000
@@ -1953,7 +1953,7 @@ header {
     line-height: 45px;
     text-align: center;
     border-radius: 15px;
-    padding-right: .5px;
+    padding-right: 5px;
     padding-top: 2px;
     transform: rotate(90deg) !important;
     position: fixed;
