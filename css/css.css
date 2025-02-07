@@ -2546,7 +2546,7 @@ p {
 }
 
 .heroo {
-    background: url('./img/banner-societe-nettoyage-casablanca-1250x250.webp') center/cover no-repeat;
+    background: url('../img/banner-societe-nettoyage-casablanca-1250x250.webp') center/cover no-repeat;
     color: white;
     height: 50vh;
     position: relative;
@@ -2587,7 +2587,7 @@ p {
 }
 
 #back {
-    background-image: linear-gradient(rgba(19, 40, 125, 0.65), rgba(19, 40, 125, 0.65)), url(./img/serv_FMC_banner.webp);
+    background-image: linear-gradient(rgba(19, 40, 125, 0.65), rgba(19, 40, 125, 0.65)), url(../img/serv_FMC_banner.webp);
     background-size: cover;
     width: 100%;
 }
