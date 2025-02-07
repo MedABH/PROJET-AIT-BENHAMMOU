@@ -961,7 +961,6 @@ span.spanBlue {
 }
 
 
-
 /* whoweare.css */
 #companyName,
 #ourObjectifCon #ourObjectifTitle {
@@ -970,7 +969,6 @@ span.spanBlue {
 }
 
 #companyName,
-#littleInfoAboutUsCon .littleInfoCon3,
 #modeProjectCon,
 #ourObjectifCon {
     margin-top: 39px
@@ -980,105 +978,7 @@ span.spanBlue {
     display: none
 }
 
-#littleInfoAboutUsCon {
-    margin-top: 30px;
-    width: 100%
-}
 
-#littleInfoAboutUsCon .littleInfoCon {
-    width: 100%;
-    display: -ms-grid;
-    display: grid;
-    grid-template-columns: repeat(1, 1fr)
-}
-
-#littleInfoAboutUsCon .littleInfoCon .littleInfoImgCon {
-    width: 100%;
-    height: 80vw;
-    max-height: 376px;
-    background-position: center;
-    background-size: cover
-}
-
-#littleInfoAboutUsCon .littleInfoCon .littleInfoImg1 {
-    background-image: url("./accueil_files/images/nettoyage-industriel-professionnel-casablanca.webp")
-}
-
-#littleInfoAboutUsCon .littleInfoCon .littleInfoImg2 {
-    background-image: url("./accueil_files/images/societe-nettoyage-bureaux-casablanca.webp")
-}
-
-#littleInfoAboutUsCon .littleInfoCon .littleInfoImg3 {
-    background-image: url("./accueil_files/images/pourquoi-appel-societe-nettoyage-casablanca.webp")
-}
-
-#littleInfoAboutUsCon .littleInfoCon .littleInfoDescCon {
-    width: 100%;
-    background-color: #f1f1f1;
-    position: relative;
-    text-align: center;
-}
-
-#littleInfoAboutUsCon .littleInfoCon .littleInfoDescCon h2 {
-    font: 500 1.5rem Poppins, sans-serif;
-    text-align: center;
-    color: #9abf3c;
-    padding: 0 40px
-}
-
-#littleInfoAboutUsCon .littleInfoCon .littleInfoDescCon p {
-    font: 17px sans-serif;
-    margin-top: 10px;
-    padding: 10px
-}
-
-#littleInfoAboutUsCon .littleInfoCon .littleInfoDescCon button {
-    background: #4f6fce;
-    border: none;
-    outline: 0;
-    cursor: pointer;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    color: #fff;
-    position: absolute;
-    bottom: 10px;
-    left: 40px;
-    padding: 5px 10px;
-    border-radius: 5px;
-    font: 0.9rem Poppins, sans-serif;
-    -webkit-transition: .1s;
-    transition: .1s;
-    display: none
-}
-
-#littleInfoAboutUsCon .littleInfoCon .littleInfoDescCon button:active {
-    -webkit-transform: scale(.95);
-    transform: scale(.95)
-}
-
-#littleInfoAboutUsCon .littleInfoCon1 {
-    margin-bottom: 30px
-}
-
-#ourObjectifCon {
-    width: 100%
-}
-
-#ourObjectifCon #ourObjectifTitle {
-    padding: 30px 0
-}
-
-#ourObjectifCon #ourObjectifImgCon {
-    width: 90%;
-    height: 50vw;
-    max-height: 253px;
-    margin: auto;
-    max-width: 1000px;
-    background-image: url("./accueil_files/images/winbest-nettoyage-satisfaction-clients.webp");
-    background-position: center;
-    background-size: cover
-}
 
 #modeProjectCon {
     width: 100%;
@@ -1455,14 +1355,6 @@ h2 {
 
 h1 {
     font-size: calc(1.375rem + 1.5vw)
-}
-
-@media screen and (max-width:1289px) {
-    #littleInfoAboutUsCon {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
 }
 
 @media (min-width:1200px) {
