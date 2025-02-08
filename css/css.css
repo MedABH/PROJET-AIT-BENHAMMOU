@@ -2449,20 +2449,22 @@ p {
         position: relative;
     }
 
+    #carousel div {
+        width: 550px;
+    }
+
     #carousel-inner {
         display: flex;
         gap: 0;
         animation: infinite-scroll 30s linear infinite;
         height: auto;
-    }
-
-    #carousel-item {
         flex: 0 0 calc(100% / 4);
+        width: 100%;
     }
 
     #carousel-item img {
         width: 100%;
-        height: 100px;
+        height: 150px;
     }
 
     @keyframes infinite-scroll {
