@@ -1765,7 +1765,7 @@ header {
     border-radius: 15px;
     cursor: pointer;
     padding-right: 0.5px;
-    padding-top: 15px;
+    padding-top: 9px;
     position: fixed;
     z-index: 1000;
 }
