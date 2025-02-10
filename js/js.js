@@ -53,3 +53,40 @@ document.addEventListener("DOMContentLoaded", () => {
       console.error("Carousel inner container not found. Check your HTML structure.");
     }
   });
+
+  window.onload = function() {
+    var myButton = document.getElementById("mybtn");
+
+    // Show the button when the user scrolls down 100px
+    window.onscroll = function() {
+      if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        myButton.classList.add("show");
+        myButton.classList.remove("hide");
+      } else {
+        myButton.classList.add("hide");
+        myButton.classList.remove("show");
+      }
+    };
+
+    // Custom function to scroll up slowly
+    myButton.onclick = function() {
+      scrollToTop(1000);  // Adjust this value to change the speed of scroll
+    };
+
+    function scrollToTop(duration) {
+      const start = window.scrollY;
+      const startTime = performance.now();
+
+      function scrollStep(timestamp) {
+        const progress = timestamp - startTime;
+        const position = Math.max(start - (progress / duration) * start, 0);
+        window.scrollTo(0, position);
+
+        if (position > 0) {
+          requestAnimationFrame(scrollStep);
+        }
+      }
+
+      requestAnimationFrame(scrollStep);
+    }
+  };

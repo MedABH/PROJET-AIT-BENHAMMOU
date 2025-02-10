@@ -1720,34 +1720,50 @@ header {
 
 #mybtn {
     display: inline-block;
-    background-color: #9bbe3d;
+    background-color: #9BBE3D;
     width: 50px;
     height: 50px;
     text-align: center;
     border-radius: 15px;
     position: fixed;
-    bottom: 0;
-    left: 0;
+    bottom: 20px;
+    left: 20px;
+    transition: background-color 0.3s, opacity 0.5s, visibility 0.5s;
     opacity: 0;
     visibility: hidden;
-    z-index: 1000
+    z-index: 1000;
 }
-
 #mybtn::after {
     content: "\f077";
     font-family: FontAwesome;
-    font-weight: 400;
+    font-weight: normal;
     font-style: normal;
     font-size: 2em;
     line-height: 50px;
-    color: #fff
+    color: #fff;
+}
+#mybtn:hover {
+    cursor: pointer;
+    background-color: #4285F4;
+}
+#mybtn:active {
+    background-color: #555;
+}
+#mybtn.show {
+    opacity: 1;
+    visibility: visible;
+}
+#mybtn.hide {
+    opacity: 0;
+    visibility: hidden;
 }
 
-@media (min-width:500px) {
+@media (min-width: 500px) {
     #mybtn {
-        margin: 20px
+      margin: 20px;
     }
 }
+
 
 ::after,
 ::before {
