@@ -802,6 +802,17 @@ span.spanBlue {
     padding: 30px 0
 }
 
+#ourServicesListCon .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centre les éléments */
+}
+
+.serviceCon {
+    max-width: 100%;
+    padding: 10px;
+}
+
 #ourServices #ourServicesListCon {
     width: 100%;
     display: -ms-grid;
@@ -810,7 +821,7 @@ span.spanBlue {
     row-gap: 20px
 }
 
-#ourServices #ourServicesListCon #serviceCon {
+#ourServices #ourServicesListCon .serviceCon {
     width: 358px;
     height: 500px;
     position: relative;
@@ -829,7 +840,7 @@ span.spanBlue {
     flex-direction: column
 }
 
-#ourServices #ourServicesListCon #serviceCon .serviceImgCon {
+#ourServices #ourServicesListCon .serviceCon .serviceImgCon {
     height: 40%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -842,7 +853,7 @@ span.spanBlue {
     justify-content: center
 }
 
-#ourServices #ourServicesListCon #serviceCon .serviceImgCon a {
+#ourServices #ourServicesListCon .serviceCon .serviceImgCon a {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -856,7 +867,7 @@ span.spanBlue {
     width: 100%
 }
 
-#ourServices #ourServicesListCon #serviceCon .serviceImgCon a img {
+#ourServices #ourServicesListCon .serviceCon .serviceImgCon a img {
     height: 100%;
     width: 100%;
     -webkit-user-select: none;
@@ -865,37 +876,37 @@ span.spanBlue {
     user-select: none
 }
 
-#ourServices #ourServicesListCon #serviceCon .serviceDescCon {
+#ourServices #ourServicesListCon .serviceCon .serviceDescCon {
     height: 46%;
     padding: 10px 20px;
     overflow: hidden
 }
 
-#ourServices #ourServicesListCon #serviceCon .serviceDescCon .openServiceLink2 {
+#ourServices #ourServicesListCon .serviceCon .serviceDescCon .openServiceLink2 {
     text-decoration: none;
     color: #000
 }
 
-#ourServices #ourServicesListCon #serviceCon .serviceDescCon .openServiceLink2 hr {
+#ourServices #ourServicesListCon .serviceCon .serviceDescCon .openServiceLink2 hr {
     display: none
 }
 
-#ourServices #ourServicesListCon #serviceCon .serviceDescCon ul {
+#ourServices #ourServicesListCon .serviceCon .serviceDescCon ul {
     padding-left: 40px
 }
 
-#ourServices #ourServicesListCon #serviceCon .serviceDescCon a {
+#ourServices #ourServicesListCon .serviceCon .serviceDescCon a {
     font: 1rem Poppins, sans-serif;
     text-decoration: none;
     color: #4f6fce
 }
 
-#ourServices #ourServicesListCon #serviceCon .serviceDescCon p {
+#ourServices #ourServicesListCon .serviceCon .serviceDescCon p {
     padding: 5px 0;
     line-height: 24px
 }
 
-#ourServices #ourServicesListCon #serviceCon .serviceDescCon span {
+#ourServices #ourServicesListCon .serviceCon .serviceDescCon span {
     display: block;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2123,7 +2134,7 @@ img {
     background-color: rgb(79, 111, 206);
 }
 
-#img-style1 {
+.img-style1 {
     height: 230px;
     width: 100%;
     margin: 0px;
@@ -2597,5 +2608,3 @@ h6 {
         margin-left: 5px;
     }
 }
-
-
