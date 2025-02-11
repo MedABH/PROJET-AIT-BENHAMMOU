@@ -1733,6 +1733,7 @@ header {
     visibility: hidden;
     z-index: 1000;
 }
+
 #mybtn::after {
     content: "\f077";
     font-family: FontAwesome;
@@ -1742,17 +1743,21 @@ header {
     line-height: 50px;
     color: #fff;
 }
+
 #mybtn:hover {
     cursor: pointer;
     background-color: #4285F4;
 }
+
 #mybtn:active {
     background-color: #555;
 }
+
 #mybtn.show {
     opacity: 1;
     visibility: visible;
 }
+
 #mybtn.hide {
     opacity: 0;
     visibility: hidden;
@@ -1760,7 +1765,7 @@ header {
 
 @media (min-width: 500px) {
     #mybtn {
-      margin: 20px;
+        margin: 20px;
     }
 }
 
@@ -2563,3 +2568,34 @@ h6 {
 #pdng {
     padding-top: 120px;
 }
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+    flex-wrap: wrap;
+}
+
+.page-item {
+    margin: 0 5px;
+}
+
+@media (max-width: 768px) {
+    .pagination {
+        flex-wrap: nowrap;
+    }
+
+    .page-item {
+        flex: none;
+        margin: 5px 2px;
+    }
+
+    .pagination .page-item:last-child,
+    .pagination .page-item:nth-last-child(2) {
+        margin-left: 5px;
+    }
+}
+
+
