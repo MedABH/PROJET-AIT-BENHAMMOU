@@ -2710,3 +2710,21 @@ h6 {
         min-height: 140px; 
     }
 }
+
+
+/* dernier css les espaces enter les mots */
+/*@media screen and (max-width: 768px) {
+    body {
+        word-spacing: 0;
+        letter-spacing: 0;
+        text-align: left !important;
+    }
+    p, div, span {
+        white-space: normal !important;
+        word-break: break-word;
+        overflow-wrap: break-word;
+        text-align: left !important;
+        margin: 0;
+        padding: 0;
+    }
+}*/
