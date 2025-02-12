@@ -2711,6 +2711,12 @@ h6 {
     }
 }
 
+.captcha-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
 
 /* dernier css les espaces enter les mots */
 /*@media screen and (max-width: 768px) {

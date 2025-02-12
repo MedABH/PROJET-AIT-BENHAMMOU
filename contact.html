@@ -2,7 +2,8 @@
 <html lang="en">
 
 <head>
-    <meta name="description" content="DEMANDEZ UN DEVIS ALLO BRICOLE pour votre services Pour nous adresser vos remarques, questions et demandes de service, veuillez nous contactez">
+    <meta name="description"
+        content="DEMANDEZ UN DEVIS ALLO BRICOLE pour votre services Pour nous adresser vos remarques, questions et demandes de service, veuillez nous contactez">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Societe de Multi-Services | DEMANDEZ UN DEVIS - ALLO BRICOLE</title>
@@ -11,6 +12,7 @@
     <link href="css/css.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="icon" href="./img/societe-travaux-multi-service-casablanca.png" type="image/x-icon">
+    <script src="https://www.google.com/recaptcha/api.js?render=6Ldr9dQqAAAAAGH5fblVMMEgwjdvNvmilwRHFjIM"></script>
 </head>
 
 <body class="wide">
@@ -125,7 +127,7 @@
                 </div>
             </div>
     </header>
-    
+
     <div class="container col-12 my-5 py-5">
         <section class="px-md-5 mx-md-5 text-center text-lg-left dark-grey-text">
             <div class="row" id="headerPading">
@@ -154,7 +156,7 @@
                     </div>
                 </div>
                 <div class="col-lg-7 col-md-12 mb-4 mb-md-0" id="greenbord">
-                    <form id="devisForm" method="POST">
+                    <form id="devisForm" method="POST" action="contact.php">
                         <div class="inputAndLabelCon">
 
                             <label for="" class="pt-4">Nom/Prenom <span class="necessary">*</span></label><br>
@@ -250,9 +252,17 @@
                                 id="captchaAnswer" required=""><br><br>
                             <span id="errorMessage" class="error"></span>
                         </div>
+
+                        <div class="captcha-container">
+                            <div class="g-recaptcha" data-sitekey="6Lf8EtUqAAAAACxFOqIDUnVaF2ZLqtRq1K0E1s2o"></div>
+                        </div>
+
+                        <div class="captcha-container">
                         <button id="sendMessageBtn" type="submit" name="sendEmailSubBtn">
                             envoyer
-                        </button>
+                        </button></div>
+                        <br />
+                        <div id="successMessage" style="display:none; color: green;"></div>
 
                     </form>
                 </div>
@@ -263,15 +273,15 @@
 
     <a id="mybtn" class="hide"></a>
 
-<div class="fixed-btn">
-            <a href="./contact.html"><i class="fas fa-comment-alt" aria-hidden="true"></i></a>
-        </div>
-        <div class="fixed-btn1">
-            <a href="tel:06 65 60 65 00"><i class="fa fa-phone" aria-hidden="true"></i></a>
-        </div>
-        <div class="fixed-btn2">
-            <a href="https://api.whatsapp.com/send?phone=0665606500"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
-        </div>
+    <div class="fixed-btn">
+        <a href="./contact.html"><i class="fas fa-comment-alt" aria-hidden="true"></i></a>
+    </div>
+    <div class="fixed-btn1">
+        <a href="tel:06 65 60 65 00"><i class="fa fa-phone" aria-hidden="true"></i></a>
+    </div>
+    <div class="fixed-btn2">
+        <a href="https://api.whatsapp.com/send?phone=0665606500"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+    </div>
 
     <footer class="footer-dark">
         <div class="container">
@@ -419,7 +429,7 @@
                             <li><a href="mailto:allo.multiservices.maroc@gmail.com" class="chna">Contactez nous</a></li>
                         </ul>
                     </div>
-                    
+
                 </div>
                 <div class="col item social">
                     <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
@@ -446,6 +456,8 @@
     </footer>
     <script src="js/js.js"></script>
     <script src="js/contact.js"></script>
+    <script src="js/recaptcha.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </body>
 
 </html>
