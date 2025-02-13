@@ -31,7 +31,7 @@
                             <a href="./html.html"><strong>ACCUEIL</strong></a>
                         </li>
                         <li class="nav-link " id="second-link">
-                            <a href="#"><strong>A PROPOS</strong></a>
+                            <a href="#"><strong>A PROPOS</strong><i class="fas fa-caret-down " aria-hidden="true"></i></a>
                             <div class="dropdown">
                                 <ul>
                                     <li class="dropdown-link">
@@ -54,7 +54,7 @@
                             <a href="./professionnel-Casablanca.html"><strong>PROFESSIONNELS</strong></a>
                         </li>
                         <li class="nav-link " id="fifth-link">
-                            <a href="#"><strong>SERVICES</strong></a>
+                            <a href="#"><strong>SERVICES</strong><i class="fas fa-caret-down " aria-hidden="true"></i></a>
                             <div class="dropdown">
                                 <ul>
                                     <li class="dropdown-link">
@@ -111,7 +111,7 @@
                         <li class="nav-link inline" id="eighth-link">
                             <a href="./contact.html"><strong>CONTACTEZ-NOUS</strong></a>
                         </li>
-                        <li class="nav-link inline" d="nineth-link">
+                        <li class="nav-link inline" id="nineth-link">
                             <a href="./devis.html" class="btn"><strong>DEMANDEZ DEVIS</strong></a>
                         </li>
                         <br>
@@ -158,13 +158,13 @@
                     <form id="devisForm" method="POST" action="contact.php">
                         <div class="inputAndLabelCon">
 
-                            <label for="" class="pt-4">Nom/Prenom <span class="necessary">*</span></label><br>
+                            <label for="" class="formTxtColor pt-4"><strong>Nom/Prenom</strong><span class="necessary">*</span></label><br>
                             <input type="text" id="senderName" name="nom" class="iputandselect" placeholder="Nom"
                                 required="">
                         </div>
 
                         <div class="inputAndLabelCon">
-                            <label for="" class="pt-4">Ville <span class="necessary">*</span></label><br>
+                            <label for="" class="formTxtColor pt-3"><strong>Ville</strong><span class="necessary">*</span></label><br>
                             <select name="senderVille" id="vll" class="iputandselect" required="">
                                 <option value="" disabled="" selected="" hidden="">Choisi la Ville</option>
                                 <option value="10"> Agadir </option>
@@ -193,17 +193,17 @@
 
                         </div>
                         <div class="inputAndLabelCon">
-                            <label for="" class="pt-4">Tél <span class="necessary">*</span></label><br>
+                            <label for="" class="formTxtColor pt-3"><strong>Tél</strong><span class="necessary">*</span></label><br>
                             <input type="text" id="tel" class="iputandselect" name="senderTel" pattern="\d{10,}"
                                 placeholder="10 chiffres minimum" required="">
                         </div>
                         <div class="inputAndLabelCon">
-                            <label for="" class="pt-4">Email <span class="necessary">*</span></label><br>
+                            <label for="" class="formTxtColor pt-3"><strong>Email</strong><span class="necessary">*</span></label><br>
                             <input type="email" id="email" name="senderEmail" class="iputandselect"
                                 placeholder="exemple@gmail.com" required="">
                         </div>
                         <div class="inputAndLabelCon" id="rt">
-                            <label class="pt-4">Type de local<span class="necessary">*</span></label><br>
+                            <label class="formTxtColor pt-3"><strong>Type de local</strong><span class="necessary">*</span></label><br>
                             <select name="ProOrPar" id="TypeLocal" class="iputandselect" required="">
                                 <option value="" disabled="" selected="" hidden="">Choisi le type de local</option>
                                 <option value="1"> Particulier </option>
@@ -212,7 +212,7 @@
                         </div>
 
                         <div class="inputAndLabelCon" id="Part">
-                            <label for="" class="pt-4">Sujet <span class="necessary">*</span></label><br>
+                            <label for="" class="formTxtColor pt-3"><strong>Sujet</strong><span class="necessary">*</span></label><br>
                             <select name="messageSubject1" class="iputandselect" id="pr">
                                 <option value="" disabled="" selected="" hidden="">Choisi le Sujet</option>
                                 <option value="1"> Studio </option>
@@ -223,7 +223,7 @@
                             </select>
                         </div>
                         <div class="inputAndLabelCon" id="Prof">
-                            <label for="" class="pt-4">Sujet <span class="necessary">*</span></label><br>
+                            <label for="" class="formTxtColor pt-3"><strong>Sujet</strong><span class="necessary">*</span></label><br>
                             <select name="messageSubject2" class="iputandselect" id="pf">
                                 <option value="" disabled="" selected="" hidden="">Choisi le Sujet</option>
                                 <option value="6"> Magasin </option>
@@ -234,19 +234,19 @@
                             </select>
                         </div>
                         <div class="inputAndLabelCon" id="atre">
-                            <label for="" class="pt-4">Autre <span class="necessary">*</span></label><br>
+                            <label for="" class="formTxtColor pt-3"><strong>Autre</strong><span class="necessary">*</span></label><br>
                             <input type="text" name="messageSubject3" class="iputandselect" id="atr"
                                 placeholder="Autre">
                         </div>
                         <div class="inputAndLabelCon" id="messageTxt">
-                            <label for="" class="pt-4">Message <span class="necessary">*</span></label><br>
+                            <label for="" class="formTxtColor pt-3"><strong>Message</strong><span class="necessary">*</span></label><br>
                             <textarea id="textareacon" type="text" name="senderMessage" placeholder="Message"
                                 required="">              </textarea>
 
                         </div>
 
                         <div class="inputAndLabelCon">
-                            <label id="captchaQuestion" class="pt-4">Quel est la somme de 1 + 5 ?</label><br>
+                            <label id="captchaQuestion" class="formTxtColor pt-3"><strong>Quel est la somme de 1 + 5 ?</strong></label><br>
                             <input type="number" class="iputandselect" placeholder="Entrez bonne reponse "
                                 id="captchaAnswer" required=""><br><br>
                             <span id="errorMessage" class="error"></span>
