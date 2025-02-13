@@ -31,7 +31,8 @@
                             <a href="./html.html"><strong>ACCUEIL</strong></a>
                         </li>
                         <li class="nav-link " id="second-link">
-                            <a href="#"><strong>A PROPOS</strong><i class="fas fa-caret-down " aria-hidden="true"></i></a>
+                            <a href="#"><strong>A PROPOS</strong><i class="fas fa-caret-down "
+                                    aria-hidden="true"></i></a>
                             <div class="dropdown">
                                 <ul>
                                     <li class="dropdown-link">
@@ -54,7 +55,8 @@
                             <a href="./professionnel-Casablanca.html"><strong>PROFESSIONNELS</strong></a>
                         </li>
                         <li class="nav-link " id="fifth-link">
-                            <a href="#"><strong>SERVICES</strong><i class="fas fa-caret-down " aria-hidden="true"></i></a>
+                            <a href="#"><strong>SERVICES</strong><i class="fas fa-caret-down "
+                                    aria-hidden="true"></i></a>
                             <div class="dropdown">
                                 <ul>
                                     <li class="dropdown-link">
@@ -132,6 +134,7 @@
             <div class="row" id="headerPading">
                 <h3 class="text-center pb-4" id="mainTitle">Demandez une étude tarifaire</h3>
                 <div class="col-lg-5 col-md-12 mb-0 mb-md-0">
+                    <br />
                     <p id="center">Devis : Le meilleur moyen d'établir une estimation tarifaire reste une
                         rencontre physique. vous pouvez mieux nous expliquer votre projet, vos objectifs, vos
                         attentes, les fonctionnalités souhaitées, etc.</p>
@@ -158,13 +161,15 @@
                     <form id="devisForm" method="POST" action="contact.php">
                         <div class="inputAndLabelCon">
 
-                            <label for="" class="formTxtColor pt-4"><strong>Nom/Prenom</strong><span class="necessary">*</span></label><br>
+                            <label for="" class="formTxtColor pt-4"><strong>Nom/Prenom</strong><span
+                                    class="necessary">*</span></label><br>
                             <input type="text" id="senderName" name="nom" class="iputandselect" placeholder="Nom"
                                 required="">
                         </div>
 
                         <div class="inputAndLabelCon">
-                            <label for="" class="formTxtColor pt-3"><strong>Ville</strong><span class="necessary">*</span></label><br>
+                            <label for="" class="formTxtColor pt-3"><strong>Ville</strong><span
+                                    class="necessary">*</span></label><br>
                             <select name="senderVille" id="vll" class="iputandselect" required="">
                                 <option value="" disabled="" selected="" hidden="">Choisi la Ville</option>
                                 <option value="10"> Agadir </option>
@@ -193,17 +198,20 @@
 
                         </div>
                         <div class="inputAndLabelCon">
-                            <label for="" class="formTxtColor pt-3"><strong>Tél</strong><span class="necessary">*</span></label><br>
+                            <label for="" class="formTxtColor pt-3"><strong>Tél</strong><span
+                                    class="necessary">*</span></label><br>
                             <input type="text" id="tel" class="iputandselect" name="senderTel" pattern="\d{10,}"
                                 placeholder="10 chiffres minimum" required="">
                         </div>
                         <div class="inputAndLabelCon">
-                            <label for="" class="formTxtColor pt-3"><strong>Email</strong><span class="necessary">*</span></label><br>
+                            <label for="" class="formTxtColor pt-3"><strong>Email</strong><span
+                                    class="necessary">*</span></label><br>
                             <input type="email" id="email" name="senderEmail" class="iputandselect"
                                 placeholder="exemple@gmail.com" required="">
                         </div>
                         <div class="inputAndLabelCon" id="rt">
-                            <label class="formTxtColor pt-3"><strong>Type de local</strong><span class="necessary">*</span></label><br>
+                            <label class="formTxtColor pt-3"><strong>Type de local</strong><span
+                                    class="necessary">*</span></label><br>
                             <select name="ProOrPar" id="TypeLocal" class="iputandselect" required="">
                                 <option value="" disabled="" selected="" hidden="">Choisi le type de local</option>
                                 <option value="1"> Particulier </option>
@@ -212,7 +220,8 @@
                         </div>
 
                         <div class="inputAndLabelCon" id="Part">
-                            <label for="" class="formTxtColor pt-3"><strong>Sujet</strong><span class="necessary">*</span></label><br>
+                            <label for="" class="formTxtColor pt-3"><strong>Sujet</strong><span
+                                    class="necessary">*</span></label><br>
                             <select name="messageSubject1" class="iputandselect" id="pr">
                                 <option value="" disabled="" selected="" hidden="">Choisi le Sujet</option>
                                 <option value="1"> Studio </option>
@@ -223,7 +232,8 @@
                             </select>
                         </div>
                         <div class="inputAndLabelCon" id="Prof">
-                            <label for="" class="formTxtColor pt-3"><strong>Sujet</strong><span class="necessary">*</span></label><br>
+                            <label for="" class="formTxtColor pt-3"><strong>Sujet</strong><span
+                                    class="necessary">*</span></label><br>
                             <select name="messageSubject2" class="iputandselect" id="pf">
                                 <option value="" disabled="" selected="" hidden="">Choisi le Sujet</option>
                                 <option value="6"> Magasin </option>
@@ -234,19 +244,22 @@
                             </select>
                         </div>
                         <div class="inputAndLabelCon" id="atre">
-                            <label for="" class="formTxtColor pt-3"><strong>Autre</strong><span class="necessary">*</span></label><br>
+                            <label for="" class="formTxtColor pt-3"><strong>Autre</strong><span
+                                    class="necessary">*</span></label><br>
                             <input type="text" name="messageSubject3" class="iputandselect" id="atr"
                                 placeholder="Autre">
                         </div>
                         <div class="inputAndLabelCon" id="messageTxt">
-                            <label for="" class="formTxtColor pt-3"><strong>Message</strong><span class="necessary">*</span></label><br>
+                            <label for="" class="formTxtColor pt-3"><strong>Message</strong><span
+                                    class="necessary">*</span></label><br>
                             <textarea id="textareacon" type="text" name="senderMessage" placeholder="Message"
                                 required="">              </textarea>
 
                         </div>
 
                         <div class="inputAndLabelCon">
-                            <label id="captchaQuestion" class="formTxtColor pt-3"><strong>Quel est la somme de 1 + 5 ?</strong></label><br>
+                            <label id="captchaQuestion" class="formTxtColor pt-3"><strong>Quel est la somme de 1 + 5
+                                    ?</strong></label><br>
                             <input type="number" class="iputandselect" placeholder="Entrez bonne reponse "
                                 id="captchaAnswer" required=""><br><br>
                             <span id="errorMessage" class="error"></span>
@@ -257,9 +270,10 @@
                         </div>
 
                         <div class="captcha-container">
-                        <button id="sendMessageBtn" type="submit" name="sendEmailSubBtn">
-                            envoyer
-                        </button></div>
+                            <button id="sendMessageBtn" type="submit" name="sendEmailSubBtn">
+                                envoyer
+                            </button>
+                        </div>
                         <br />
                         <div id="successMessage" style="display:none; color: green;"></div>
 
@@ -286,9 +300,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4 item">
-                    <a href="./html.html"><img src="./img/societe-travaux-multi-service-Casablanca.png" width="130px"
-                            height="130px" alt="WINBEST NETTOYAGE Société de nettoyage à Casablanca Maroc"
-                            class="imgfot"></a>
+                    <a href="./html.html"><img src="./img/societe-travaux-multi-service-Casablanca.png" id="stimgicon"
+                            alt="ALLO BRICOLLE Société de nettoyage à Casablanca Maroc" class="imgfot"></a>
                     <br><br>
                     <ul>
                         <li>
@@ -302,7 +315,7 @@
                     </ul>
                     <a href="./pourquoi-nous-choisir.html"><img width="260px" height="115px"
                             src="./img/WINBEST-NETTOYAGE-SOCIETE-NETTOYAGE-Casablanca.svg"
-                            alt="WINBEST NETTOYAGE NOTÉ COMME LE MEILLEUR PRESTATAIRE DE NETTOYAGE AU Maroc A TITRE DE L&#39;ANNÉE 2021"></a>
+                            alt="ALLO BRICOLLE NOTÉ COMME LE MEILLEUR PRESTATAIRE DE NETTOYAGE AU Maroc A TITRE DE L&#39;ANNÉE 2021"></a>
                 </div>
                 <div class="col-md-5 item aa">
                     <b class="trFot">NOS SERVICES</b>
