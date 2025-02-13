@@ -2721,6 +2721,11 @@ h6 {
     font-size: large;
 }
 
+#logoFoter {
+    height: auto;
+    width: 160px;
+}
+
 /* dernier css les espaces enter les mots */
 /*@media screen and (max-width: 768px) {
     body {
