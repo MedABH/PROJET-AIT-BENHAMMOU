@@ -1261,7 +1261,6 @@ table li:hover {
 }
 
 #ourClients #ourClientsCon #ourClientHolder .ourClientIconCon span {
-    font-size: 5rem;
     background-image: -webkit-gradient(linear, right bottom, left top, from(#4f6fce), to(lightblue));
     background-image: linear-gradient(to top left, #4f6fce, #add8e6);
     color: #fff;
