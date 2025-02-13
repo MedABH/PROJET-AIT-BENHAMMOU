@@ -1906,15 +1906,15 @@ img {
 }
 
 #img1hdr {
-    background-image: url('/img/image-slider1.webp');
+    background-image: url('../img/image-slider1.webp');
 }
 
 #img2hdr {
-    background-image: url('/img/image-slider2.webp');
+    background-image: url('../img/image-slider2.webp');
 }
 
 #img3hdr {
-    background-image: url('/img/image-slider1.webp');
+    background-image: url('../img/image-slider1.webp');
 }
 
 ::-webkit-scrollbar {
