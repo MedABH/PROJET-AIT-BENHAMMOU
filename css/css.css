@@ -2726,6 +2726,10 @@ h6 {
     width: 160px;
 }
 
+.img-f-b {
+    border-radius: 5%;
+}
+
 /* dernier css les espaces enter les mots */
 /*@media screen and (max-width: 768px) {
     body {
